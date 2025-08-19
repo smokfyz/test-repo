@@ -1,1 +1,5 @@
 .idea/
+
+# Coverage artifacts
+coverage.out
+coverage-*.out
