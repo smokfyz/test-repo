@@ -36,7 +36,7 @@ func main() {
 	var sumCSV string
 
 	flag.StringVar(&name, "name", "", "name to greet (defaults to 'World')")
-	flag.StringVar(&sumCSV, "sum", "", "comma-separated list of integers to sum (e.g. '1,2,3,4')")
+	flag.StringVar(&sumCSV, "sum", "", "comma-separated list of integers to sum (e.g. '1,2,3')")
 	flag.Parse()
 
 	// Greeting
